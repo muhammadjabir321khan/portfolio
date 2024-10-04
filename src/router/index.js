@@ -6,37 +6,37 @@ const router = createRouter({
     {
       path: '/',
       redirect: '/home',
-      component: () => import('@/views/layout/Layout.vue'),
+      component: () => import('../views/layout/Layout.vue'),
       children: [
         {
           path: '/home',
           name: 'home.home',
-          component: () => import('@/views/HomeView.vue'),
+          component: () => import('../views/HomeView.vue'),
         },
         {
           path: '/about',
           name: 'home.about',
-          component: () => import('@/views/About.vue'),
+          component: () => import('../views/About.vue'),
         },
         {
           path: '/education',
           name: 'home.education',
-          component: () => import('@/views/Education.vue'),
+          component: () => import('../views/Education.vue'),
         },
         {
           path: '/skills',
           name: 'home.skills',
-          component: () => import('@/views/Skills.vue'),
+          component: () => import('../views/Skills.vue'),
         },
         {
           path: '/projects',
           name: 'home.projects',
-          component: () => import('@/views/Projects.vue'),
+          component: () => import('../views/Projects.vue'),
         },
         {
           path: '/contact',
           name: 'home.contact',
-          component: () => import('@/views/Contact.vue'),
+          component: () => import('../views/Contact.vue'),
         },
       ],
     },
