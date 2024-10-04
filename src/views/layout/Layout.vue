@@ -7,5 +7,5 @@ import Footer from '@/components/partials/Footer.vue';
 <template>
   <Navbar/>
   <RouterView />
-  <Footer/>
+  <Footer />
 </template>
