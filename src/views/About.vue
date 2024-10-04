@@ -2,7 +2,7 @@
  <section class="about" id="about">
     <h2 class="heading">About  <span>Me</span></h2>
     <div class="about-image">
-        <img src="@assets/images/protfolio.jpg" alt="">
+        <img src="../assets/images/protfolio.jpg" alt="">
         <span class="circle-spin"></span>
     </div>
     <div class="about-content">
