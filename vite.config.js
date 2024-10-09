@@ -3,14 +3,13 @@ import vue from '@vitejs/plugin-vue';
 import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
-    base: "/portfolio/",
+    base: "/portfolio/",  // This should match your GitHub repository name
 
   plugins: [vue()],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
-      // '@assets': fileURLToPath(new URL('./src/assets', import.meta.url)), // Example alias for assets folder
-      // Add more aliases as needed for different folders
+      '@assets': fileURLToPath(new URL('./src/assets', import.meta.url)),
     },
   },
 });
